@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 20px 0;
+    border: solid;
+    border-width: 4px;
+    border-color: blueviolet;
+}
+.header-content {
+    display: inline-block;
+}
+.header-content h1 {
+    display: block;
+    margin: 0;
+    font-size: 2em;
+}
+nav {
+    margin-top: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: none;
+}
+.bakery {
+    text-align: center;
+    height: 50px;
+    width: auto;
+
+}
+.local-bakery {
+
+    background-color: antiquewhite;
+    height: 130px;
+    width: &15px;
+    border: solid;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-hight: 100%;
+
+}
+.our-bakery {
+    text-align: center;
+}
+.section-one {
+    display: inline;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline;
+    height: 30px;
+    width: 2000px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.tartlet {
+    display: inline-block;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 200px;
+    width: auto;
+    border: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    border-hight: 100%;
+}
+
+.menu {
+    display: block;
+    background-color: #f9d5ec;
+    padding: 10px 10px;
+    margin-bottom: -30px;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: solid;
+    border-width: 3px;
+    border: bottom -3px;
+    border-color: blueviolet;
+    width: 80%;
+}
+
+.items {
+    display: block;
+    background-color: #f9d5ec;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    width: 80%;
+    border: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+}
+aside {
+    text-align: right; 
+    padding: 20px;
+}
+.container{
+    float: right;
+}
+.photos{
+   float: left; 
+}
+.product {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(177, 119, 43);
+    width: auto;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(113, 30, 191);
+    border-hight: 100%;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(202, 134, 173);
+    text-align: center;
+    height: 100px;
+    width: auto;
+    border: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+}
